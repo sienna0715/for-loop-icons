@@ -3,26 +3,31 @@ import { useState } from 'react';
 // components
 import { PALETTE_COMPONENT } from '../../styles/colors';
 
-const Container = styled.span<{ state: boolean }>`
-  width: 50px;
-  height: 30px;
-  padding: 1px;
-  border-radius: 15px;
+const Container = styled.div<{ $state: boolean; $size: number }>`
+  width: ${(props) => `${props.$size}px`};
+  height: ${(props) => `${(props.$size / 5) * 3}px`};
+  padding: ${(props) => `${props.$size / 50}px`};
+  border-radius: ${(props) => `${(props.$size / 10) * 3}px`};
   background-color: ${(props) =>
-    props.state ? '#fff0cc' : PALETTE_COMPONENT.gray03};
+    props.$state ? '#fff0cc' : PALETTE_COMPONENT.gray03};
   transition: all 0.3s ease-in;
   > div {
-    width: 28px;
-    height: 28px;
-    border-radius: 14px;
+    width: ${(props) => `${(props.$size / 25) * 14}px`};
+    height: ${(props) => `${(props.$size / 25) * 14}px`};
+    border-radius: ${(props) => `${(props.$size / 25) * 7}px`};
     background-color: ${PALETTE_COMPONENT.primary_white};
-    box-shadow: 0 2px 2px #00000030;
-    transform: ${(props) => (props.state ? 'translateX(71%)' : 'none')};
+    box-shadow: ${(props) =>
+      `0 ${props.$size / 25}px ${props.$size / 25}px #00000030`};
+    transform: ${(props) => (props.$state ? 'translateX(71%)' : 'none')};
     transition: all 0.3s ease-in;
   }
 `;
 
-function IosToggle() {
+interface IIosToggleProps {
+  size: number;
+}
+
+function IosToggle({ size }: IIosToggleProps) {
   const [isToggle, setIsToggle] = useState(false);
 
   const toggleHandler = () => {
@@ -30,7 +35,7 @@ function IosToggle() {
   };
 
   return (
-    <Container onClick={toggleHandler} state={isToggle}>
+    <Container onClick={toggleHandler} $state={isToggle} $size={size}>
       <div />
     </Container>
   );
