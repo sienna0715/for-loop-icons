@@ -3,7 +3,7 @@ interface IListProps {
   color: string;
 }
 
-function List({ size, color }: IListProps) {
+function List({ size = 40, color = 'black' }: IListProps) {
   return (
     <svg
       width={size}

@@ -3,7 +3,7 @@ interface IStarProps {
   color: string;
 }
 
-function Star({ size, color }: IStarProps) {
+function Star({ size = 40, color = 'black' }: IStarProps) {
   return (
     <svg
       width={size}

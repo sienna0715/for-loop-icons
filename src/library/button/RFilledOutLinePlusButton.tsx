@@ -39,7 +39,9 @@ interface IRFilledOutLinePlusButtonProps {
   size: number;
 }
 
-function RFilledOutLinePlusButton({ size }: IRFilledOutLinePlusButtonProps) {
+function RFilledOutLinePlusButton({
+  size = 115,
+}: IRFilledOutLinePlusButtonProps) {
   return (
     <Button type='button' $size={size}>
       <span>Button</span>

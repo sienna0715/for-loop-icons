@@ -34,7 +34,7 @@ interface IAosToggleProps {
   size: number;
 }
 
-function AosToggle({ size }: IAosToggleProps) {
+function AosToggle({ size = 40 }: IAosToggleProps) {
   const [isToggle, setIsToggle] = useState(false);
 
   const toggleHandler = () => {

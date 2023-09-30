@@ -24,7 +24,7 @@ interface IDisableOutLineButtonProps {
   size: number;
 }
 
-function DisableOutLineButton({ size }: IDisableOutLineButtonProps) {
+function DisableOutLineButton({ size = 80 }: IDisableOutLineButtonProps) {
   return (
     <Button type='button' $size={size}>
       Button

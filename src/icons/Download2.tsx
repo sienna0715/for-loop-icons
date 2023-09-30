@@ -3,7 +3,7 @@ interface IDownload2Props {
   color: string;
 }
 
-function Download2({ size, color }: IDownload2Props) {
+function Download2({ size = 40, color = 'black' }: IDownload2Props) {
   return (
     <svg
       width={size}

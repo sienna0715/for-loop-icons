@@ -40,7 +40,7 @@ interface IOutLinePlusButtonProps {
   size: number;
 }
 
-function OutLinePlusButton({ size }: IOutLinePlusButtonProps) {
+function OutLinePlusButton({ size = 115 }: IOutLinePlusButtonProps) {
   return (
     <Button type='button' $size={size}>
       <span>

@@ -3,7 +3,7 @@ interface IBookmarkProps {
   color: string;
 }
 
-function Bookmark({ size, color }: IBookmarkProps) {
+function Bookmark({ size = 40, color = 'black' }: IBookmarkProps) {
   return (
     <svg
       width={(size / 40) * 33}

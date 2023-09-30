@@ -3,7 +3,7 @@ interface IHeartProps {
   color: string;
 }
 
-function Heart({ size, color }: IHeartProps) {
+function Heart({ size = 40, color = 'black' }: IHeartProps) {
   return (
     <>
       <svg

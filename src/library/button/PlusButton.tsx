@@ -39,7 +39,7 @@ interface IPlusButtonProps {
   size: number;
 }
 
-function PlusButton({ size }: IPlusButtonProps) {
+function PlusButton({ size = 115 }: IPlusButtonProps) {
   return (
     <Button type='button' $size={size}>
       <span>

@@ -3,7 +3,7 @@ interface ILightningProps {
   color: string;
 }
 
-function Lightning({ size, color }: ILightningProps) {
+function Lightning({ size = 40, color = 'black' }: ILightningProps) {
   return (
     <svg
       width={size}

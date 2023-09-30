@@ -3,7 +3,7 @@ interface ISunProps {
   color: string;
 }
 
-function Sun({ size, color }: ISunProps) {
+function Sun({ size = 40, color = 'black' }: ISunProps) {
   return (
     <svg
       width={size}

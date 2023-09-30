@@ -3,7 +3,7 @@ interface IMypageProps {
   color: string;
 }
 
-function Mypage({ size, color }: IMypageProps) {
+function Mypage({ size = 40, color = 'black' }: IMypageProps) {
   return (
     <>
       <svg

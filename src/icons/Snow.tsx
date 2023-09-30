@@ -3,7 +3,7 @@ interface ISnowProps {
   color: string;
 }
 
-function Snow({ size, color }: ISnowProps) {
+function Snow({ size = 40, color = 'black' }: ISnowProps) {
   return (
     <svg
       width={size}

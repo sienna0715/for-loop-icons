@@ -3,7 +3,7 @@ interface IChatProps {
   color: string;
 }
 
-function Chat({ size, color }: IChatProps) {
+function Chat({ size = 40, color = 'black' }: IChatProps) {
   return (
     <svg
       width={size}

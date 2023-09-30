@@ -3,7 +3,7 @@ interface ICloudProps {
   color: string;
 }
 
-function Cloud({ size, color }: ICloudProps) {
+function Cloud({ size = 40, color = 'black' }: ICloudProps) {
   return (
     <svg
       width={size}

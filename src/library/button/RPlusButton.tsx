@@ -39,7 +39,7 @@ interface IRPlusButtonProps {
   size: number;
 }
 
-function RPlusButton({ size }: IRPlusButtonProps) {
+function RPlusButton({ size = 115 }: IRPlusButtonProps) {
   return (
     <Button type='button' $size={size}>
       <span>Button</span>
