@@ -1,27 +1,51 @@
-# React + TypeScript + Vite
+<h1>Welcome to <code>for-loop-icons</code></h1>
+<p>
+  <a href="https://www.npmjs.com/package/for-loop-icons" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/for-loop-icons?labelColor=black&color=black">
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/license_MIT-black" />
+  </a>
+   <a href="https://www.npmjs.com/package/for-loop-icons" target="_blank">
+    <img alt="Downloads" src="https://img.shields.io/npm/dt/for-loop-icons?labelColor=black&color=black">
+  </a>
+</p>
+Visit the FOR{LOOP} 👉 <a href="https://forloop.vercel.app/" target="_blank">https://forloop.vercel.app/</a>
+<br /><br />
+You can use icons and UI components quickly and easily in React. Type checking is also possible. <br />
+The <code>for-loop-icons</code> library provides FOR{LOOP}'s uniquely designed icons and components.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## Install
+```sh
+npm i for-loop-icons
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Usage
+```typescript
+import { House } from 'for-loop-icons';
+
+function IconEx() {
+   return (
+      <House size = {40} color = 'black' />
+   );
+}
+```
+```typescript
+import { DarkPlusButton } from 'for-loop-icons';
+
+function ComponentEx() {
+   return (
+      <DarkPlusButton size={120} />
+   );
+}
+```
+
+### Props
+| name           | type      | default      | description                         |
+| -------------- | --------- | ------------ | ----------------------------------- |
+| `size`         | `number`  | **required** | all icons, button/toggle components |
+| `color`        | `string`  | **required** | all icons                           |
+| `width`        | `number`  | **required** | input/search/dropdown components    |
+| `scale`        | `number`  | **required** | checkbox components                 |
+
+Please check [FOR{LOOP}](https://forloop.vercel.app/) for more details.
