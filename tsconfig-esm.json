@@ -20,7 +20,7 @@
     "typeRoots": ["index.d.ts", "node_modules/@types"]
   },
   "files": ["index.ts"],
-  "include": ["src/icons", "src/library", "src/custom.d.ts"],
+  "include": ["src/icons", "src/library", "src/assets", "src/custom.d.ts"],
   "exclude": ["node_modules"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
