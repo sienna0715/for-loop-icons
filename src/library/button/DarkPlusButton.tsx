@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import plus from '../../assets/plus.svg';
+import plus from '/src/assets/plus.svg';
 import { FONT_STYLE_V1 } from '../../styles/fontStyles';
 import { PALETTE_COMPONENT } from '../../styles/colors';
 
