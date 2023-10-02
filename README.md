@@ -1,4 +1,4 @@
-<h1>Welcome to <code>for-loop-icons</code></h1>
+# Welcome to <code>for-loop-icons</code>
 <p>
   <a href="https://www.npmjs.com/package/for-loop-icons" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/for-loop-icons?labelColor=black&color=black">
@@ -10,10 +10,11 @@
     <img alt="Downloads" src="https://img.shields.io/npm/dt/for-loop-icons?labelColor=black&color=black">
   </a>
 </p>
-Visit the FOR{LOOP} 👉 <a href="https://forloop.vercel.app/" target="_blank">https://forloop.vercel.app/</a>
+Visit FOR{LOOP} 👉 <a href="https://forloop.vercel.app/" target="_blank">https://forloop.vercel.app/</a>
 <br /><br />
 You can use icons and UI components quickly and easily in React. Type checking is also possible. <br />
 The <code>for-loop-icons</code> library provides FOR{LOOP}'s uniquely designed icons and components.
+<br /><br />
 
 ## Install
 ```sh
@@ -48,4 +49,5 @@ function ComponentEx() {
 | `width`        | `number`  | **required** | input/search/dropdown components    |
 | `scale`        | `number`  | **required** | checkbox components                 |
 
+<br />
 Please check [FOR{LOOP}](https://forloop.vercel.app/) for more details.
