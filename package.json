@@ -15,6 +15,23 @@
     "preview": "vite preview",
     "tsc-build": "tsc -p tsconfig-esm.json && tsc -p tsconfig-cjs.json && cp -r ./src/assets ./lib/cjs/src && cp -r ./src/assets ./lib/esm/src"
   },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/sienna0715/for-loop-icons"
+  },
+  "keywords": [
+    "react-icon-library",
+    "react-component-library",
+    "type-check"
+  ],
+  "author": {
+    "name": "sienna0715 & lapmu"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sienna0715/for-loop-icons/issues"
+  },
+  "homepage": "https://forloop.vercel.app/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
