@@ -19,6 +19,25 @@ export { default as DefaultDropdown } from './src/library/dropdown/DefaultDropdo
 // toggle
 export { default as AosToggle } from './src/library/toggle/AosToggle';
 export { default as IosToggle } from './src/library/toggle/IosToggle';
+// input
+export { default as InputDefault } from './src/library/input/InputDefault'; 
+export { default as InputCount } from './src/library/input/InputCount'; 
+export { default as InputCheck } from './src/library/input/InputCheck'; 
+// search
+export { default as SearchBar } from './src/library/search/SearchBar';
+// checkbox
+export { default as CheckboxBeige } from './src/library/checkbox/CheckboxBeige';
+export { default as CheckboxBeigeLabel } from './src/library/checkbox/CheckboxBeigeLabel';
+export { default as CheckboxBlack } from './src/library/checkbox/CheckboxBlack';
+export { default as CheckboxBlackLable } from './src/library/checkbox/CheckboxBlackLabel';
+export { default as CheckboxRed } from './src/library/checkbox/CheckboxRed';
+export { default as CheckboxRedLabel } from './src/library/checkbox/CheckboxRedLabel';
+export { default as RCheckboxBeige } from './src/library/checkbox/RCheckboxBeige';
+export { default as RCheckboxBeigeLabel } from './src/library/checkbox/RCheckboxBeigeLabel';
+export { default as RCheckboxBlack } from './src/library/checkbox/RCheckboxBlack';
+export { default as RCheckboxBlackLable } from './src/library/checkbox/RCheckboxBlackLabel';
+export { default as RCheckboxRed } from './src/library/checkbox/RCheckboxRed';
+export { default as RCheckboxRedLabel } from './src/library/checkbox/RCheckboxRedLabel';
 // icons
 export { default as Album } from './src/icons/Album';
 export { default as Alert } from './src/icons/Alert';
