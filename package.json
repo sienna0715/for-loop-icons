@@ -1,7 +1,7 @@
 {
   "name": "for-loop-icons",
   "private": false,
-  "version": "0.0.9",
+  "version": "0.1.1",
   "module": "./lib/esm/index.js",
   "main": "./lib/cjs/index.js",
   "files": [
