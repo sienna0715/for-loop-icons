@@ -33,7 +33,7 @@ interface IDarkDefaultButtonProps {
   size: number;
 }
 
-function DarkDefaultButton({ size }: IDarkDefaultButtonProps) {
+function DarkDefaultButton({ size = 80 }: IDarkDefaultButtonProps) {
   return (
     <Button type='button' $size={size}>
       Button

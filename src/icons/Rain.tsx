@@ -3,7 +3,7 @@ interface IRainProps {
   color: string;
 }
 
-function Rain({ size, color }: IRainProps) {
+function Rain({ size = 40, color = 'black' }: IRainProps) {
   return (
     <svg
       width={size}

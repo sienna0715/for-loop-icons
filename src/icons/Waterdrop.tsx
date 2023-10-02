@@ -3,7 +3,7 @@ interface IWaterdropProps {
   color: string;
 }
 
-function Waterdrop({ size, color }: IWaterdropProps) {
+function Waterdrop({ size = 40, color = 'black' }: IWaterdropProps) {
   return (
     <svg
       width={size}

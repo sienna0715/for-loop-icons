@@ -3,7 +3,7 @@ interface IHouseProps {
   color: string;
 }
 
-function House({ size, color }: IHouseProps) {
+function House({ size = 40, color = 'black' }: IHouseProps) {
   return (
     <>
       <svg

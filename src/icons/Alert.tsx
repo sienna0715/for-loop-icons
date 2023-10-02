@@ -3,7 +3,7 @@ interface IAlertProps {
   color: string;
 }
 
-function Alert({ size, color }: IAlertProps) {
+function Alert({ size = 40, color = 'black' }: IAlertProps) {
   return (
     <svg
       width={size}

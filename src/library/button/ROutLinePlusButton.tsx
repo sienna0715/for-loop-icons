@@ -40,7 +40,7 @@ interface IROutLinePlusButtonProps {
   size: number;
 }
 
-function ROutLinePlusButton({ size }: IROutLinePlusButtonProps) {
+function ROutLinePlusButton({ size = 115 }: IROutLinePlusButtonProps) {
   return (
     <Button type='button' $size={size}>
       <span>Button</span>

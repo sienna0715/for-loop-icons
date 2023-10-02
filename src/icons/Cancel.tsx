@@ -3,7 +3,7 @@ interface ICancelProps {
   color: string;
 }
 
-function Cancel({ size, color }: ICancelProps) {
+function Cancel({ size = 40, color = 'black' }: ICancelProps) {
   return (
     <svg
       width={size}

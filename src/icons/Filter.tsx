@@ -3,7 +3,7 @@ interface IFilterProps {
   color: string;
 }
 
-function Filter({ size, color }: IFilterProps) {
+function Filter({ size = 40, color = 'black' }: IFilterProps) {
   return (
     <svg
       width={size}

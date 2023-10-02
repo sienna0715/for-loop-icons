@@ -3,7 +3,7 @@ interface ILetterProps {
   color: string;
 }
 
-function Letter({ size, color }: ILetterProps) {
+function Letter({ size = 40, color = 'black' }: ILetterProps) {
   return (
     <svg
       width={size}

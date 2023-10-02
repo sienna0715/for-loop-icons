@@ -3,7 +3,7 @@ interface ISearchProps {
   color: string;
 }
 
-function Search({ size, color }: ISearchProps) {
+function Search({ size = 40, color = 'black' }: ISearchProps) {
   return (
     <svg
       width={size}

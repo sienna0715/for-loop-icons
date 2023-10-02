@@ -3,7 +3,7 @@ interface ISunriseProps {
   color: string;
 }
 
-function Sunrise({ size, color }: ISunriseProps) {
+function Sunrise({ size = 40, color = 'black' }: ISunriseProps) {
   return (
     <svg
       width={size}

@@ -24,7 +24,7 @@ interface IDisableButtonProps {
   size: number;
 }
 
-function DisableButton({ size }: IDisableButtonProps) {
+function DisableButton({ size = 80 }: IDisableButtonProps) {
   return (
     <Button type='button' $size={size}>
       Button

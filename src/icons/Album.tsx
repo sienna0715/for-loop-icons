@@ -3,7 +3,7 @@ interface IAlbumProps {
   color: string;
 }
 
-function Album({ size, color }: IAlbumProps) {
+function Album({ size = 40, color = 'black' }: IAlbumProps) {
   return (
     <svg
       width={size}

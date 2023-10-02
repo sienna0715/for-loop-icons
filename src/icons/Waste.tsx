@@ -3,7 +3,7 @@ interface IWasteProps {
   color: string;
 }
 
-function Waste({ size, color }: IWasteProps) {
+function Waste({ size = 40, color = 'black' }: IWasteProps) {
   return (
     <svg
       width={size}

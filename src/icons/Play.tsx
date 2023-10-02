@@ -3,7 +3,7 @@ interface IPlayProps {
   color: string;
 }
 
-function Play({ size, color }: IPlayProps) {
+function Play({ size = 40, color = 'black' }: IPlayProps) {
   return (
     <svg
       width={size}

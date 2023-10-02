@@ -27,7 +27,7 @@ interface IIosToggleProps {
   size: number;
 }
 
-function IosToggle({ size }: IIosToggleProps) {
+function IosToggle({ size = 50 }: IIosToggleProps) {
   const [isToggle, setIsToggle] = useState(false);
 
   const toggleHandler = () => {

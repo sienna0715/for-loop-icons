@@ -3,7 +3,7 @@ interface IMoonProps {
   color: string;
 }
 
-function Moon({ size, color }: IMoonProps) {
+function Moon({ size = 40, color = 'black' }: IMoonProps) {
   return (
     <svg
       width={size}

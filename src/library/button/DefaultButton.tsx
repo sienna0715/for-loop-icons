@@ -32,7 +32,7 @@ interface IDefaultButtonProps {
   size: number;
 }
 
-function DefaultButton({ size }: IDefaultButtonProps) {
+function DefaultButton({ size = 80 }: IDefaultButtonProps) {
   return (
     <Button type='button' $size={size}>
       Button

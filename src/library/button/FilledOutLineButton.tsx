@@ -32,7 +32,7 @@ interface IFilledOutLineButtonProps {
   size: number;
 }
 
-function FilledOutLineButton({ size }: IFilledOutLineButtonProps) {
+function FilledOutLineButton({ size = 80 }: IFilledOutLineButtonProps) {
   return (
     <Button type='button' $size={size}>
       Button

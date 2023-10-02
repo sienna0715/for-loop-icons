@@ -3,7 +3,7 @@ interface IShareProps {
   color: string;
 }
 
-function Share({ size, color }: IShareProps) {
+function Share({ size = 40, color = 'black' }: IShareProps) {
   return (
     <svg
       width={size}
