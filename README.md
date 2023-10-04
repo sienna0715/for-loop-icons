@@ -27,7 +27,7 @@ import { House } from 'for-loop-icons';
 
 function IconEx() {
    return (
-      <House size = {40} color = 'black' />
+      <House size='40' color='black' />
    );
 }
 ```
@@ -44,10 +44,11 @@ function ComponentEx() {
 ### Props
 | name           | type      | default      | description                         |
 | -------------- | --------- | ------------ | ----------------------------------- |
-| `size`         | `number`  | **required** | all icons, button/toggle components |
+| `size`         | `string`  | **required** | all icons                           |
 | `color`        | `string`  | **required** | all icons                           |
+| `size`         | `number`  | **required** | button/toggle components            |
 | `width`        | `number`  | **required** | input/search/dropdown components    |
 | `scale`        | `number`  | **required** | checkbox components                 |
 
 <br />
-Please check [FOR{LOOP}](https://forloop.vercel.app/) for more details.
+Please check <a href="https://forloop.vercel.app/">FOR{LOOP}</a> for more details.
