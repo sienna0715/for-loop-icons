@@ -1,7 +1,7 @@
 {
   "name": "for-loop-icons",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "FOR{LOOP}’s unique style icon library",
   "module": "./lib/esm/index.js",
   "main": "./lib/cjs/index.js",
