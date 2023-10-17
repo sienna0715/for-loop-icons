@@ -1,4 +1,5 @@
 # Welcome to <code>for-loop-icons</code>
+
 <p>
   <a href="https://www.npmjs.com/package/for-loop-icons" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/for-loop-icons?labelColor=black&color=black">
@@ -17,38 +18,38 @@ The <code>for-loop-icons</code> library provides FOR{LOOP}'s uniquely designed i
 <br /><br />
 
 ## Install
+
 ```sh
 npm i for-loop-icons
 ```
 
 ## Usage
+
 ```typescript
 import { House } from 'for-loop-icons';
 
 function IconEx() {
-   return (
-      <House size='40' color='black' />
-   );
+  return <House size={40} color='black' />;
 }
 ```
+
 ```typescript
 import { DarkPlusButton } from 'for-loop-icons';
 
 function ComponentEx() {
-   return (
-      <DarkPlusButton size={120} />
-   );
+  return <DarkPlusButton size={120} />;
 }
 ```
 
 ### Props
-| name           | type      | default      | description                         |
-| -------------- | --------- | ------------ | ----------------------------------- |
-| `size`         | `string`  | **required** | all icons                           |
-| `color`        | `string`  | **required** | all icons                           |
-| `size`         | `number`  | **required** | button/toggle components            |
-| `width`        | `number`  | **required** | input/search/dropdown components    |
-| `scale`        | `number`  | **required** | checkbox components                 |
+
+| name    | type     | default      | description                      |
+| ------- | -------- | ------------ | -------------------------------- |
+| `size`  | `number` | **required** | all icons                        |
+| `color` | `string` | **required** | all icons                        |
+| `size`  | `number` | **required** | button/toggle components         |
+| `width` | `number` | **required** | input/search/dropdown components |
+| `scale` | `number` | **required** | checkbox components              |
 
 <br />
 Please check <a href="https://forloop.vercel.app/">FOR{LOOP}</a> for more details.
